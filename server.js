@@ -20,8 +20,3 @@ app.use(express.static("./public/zookeepr-public"));
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
-
-
-app.listen(PORT, () => {
-    console.log(`API server now on port ${PORT}!`);
-});
