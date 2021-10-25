@@ -77,4 +77,5 @@ const handleAnimalFormSubmit = event => {
 
 };
 
+$zookeeperForm.addEventListener('submit', handleZookeeperFormSubmit);
 $animalForm.addEventListener('submit', handleAnimalFormSubmit);
